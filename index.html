@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Google Homepage</title>
-    <link rel="stylesheet" href="reset.css">
+  
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <header>
-        <ul>
-            <li><a href="#default"> About </a></li>
-
-            <li><a href="#default"> Store </a></li>
-        
-            <li style="float:right"><button type="button">Sign in</button></li>
-            <li style="float:right"><a href="#default"><img src="pictures/apps-header.png" alt="app button"></a></li>
-            <li style="float:right"><a href="#default"> Images</a></li>
-            <li style="float:right"><a href="#default"> Gmail </a></li>
-                                 
+        <nav>
+        <ul class="navbar">
+            <li>     <a href="#"> About </a> </li>
+            <li>     <a href="#"> Store </a> </li>        
+            <li class="right-side">   <a href="#default"> Gmail </a>  </li>      
+            <li style="display: flex;">   <a href="#default"> Images</a> </li> 
+            <li style="display: flex;">   <a href="#default"><img src="pictures/apps-header.png" alt="app button"></a> </li>
+            <li style="display: flex;">   <button type="button">Sign in</button> </li>                             
         </ul>
+    
+        </nav>
     </header>
 
     <div class="content">
@@ -28,6 +28,19 @@
         <img src="pictures/search-icon.png" alt="Search Icon">
         <input type="text" id="search" name="searching"> 
     </div>
-    
+    <div class="two-buttons-container">
+        <button class="two-buttons" type="button">Google Search</button>
+        <button class="two-buttons" type="button"> I'm Feeling Lucky</button>
+    </div>
+    <footer>
+        <ul>
+            <li><a href="#"> Advertising </a> </li>
+            <li><a href="#"> Business </a> </li>        
+            <li><a href="#"> How Search works </a>  </li>      
+            <li class="right-side" style="display: flex;">   <a href="#default"> Privacy</a> </li> 
+            <li><a href="#"> Terms </a></li>
+            <li><a href="#"> Settings</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
