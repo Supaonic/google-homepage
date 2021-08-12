@@ -26,7 +26,7 @@ ul {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 30%;
     height: 34px;
     font-size: 16px;
     text-align: center;
@@ -93,3 +93,26 @@ ul {
     display: flex;
     margin-left: auto;
   } 
+
+.foot-navbar {
+    display: flex;
+    background-color: #D3D3D3;
+    position: absolute;    
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+footer ul{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #70757a;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.right-side-footer {
+    display: inline-flex;
+    margin-left: auto;
+}
